@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+       
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Dogs's world</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Pets' world</h1>
+        <ul class="navigation">
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#dog-breeds" class="nav-link">Dog Breeds</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+  <section class="slideshow-container" id="gallery">
+    <h2 class="gallery-title">Gallery</h2>
+
+    <div class="mySlides fade">
+      <img src="images/dog1.jpg" >
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/dog2.jpg" >
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/dog3.jpg" >
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </section>
+
+    
+
+    <section class="projects" id="dog-breeds">
+            <h2 class="projects-title">Dog Breeds</h2>
+            <div class="projects-container">
+              <div class="project-container project-card">
+                <img
+                  src="images/Eskimo.jpg"
+                  alt="Eskimo Dog"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="project-title">Eskimo Dog</h3>
+                <p class="project-details">
+                    The American Eskimo Dog, which descended from European spitz-type dogs, was brought to the U.S. by German immigrants. 
+                </p>
+                <a href="https://www.purina.com/dogs/dog-breeds/american-eskimo-dog" target="_blank" class="project-link">Learn More</a>
+              </div>
+              <div class="project-container project-card">
+                <img
+                  src="images/Alaskan.jpg"
+                  alt="Alaskan Dog"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="project-title">Alaskan Dog</h3>
+                <p class="project-details">
+                    One of the oldest Arctic sled dogs, the Alaskan Malamute was first bred in Alaska to carry large loads over long distances. 
+                </p>
+                <a href="https://www.purina.com/dogs/dog-breeds/alaskan-malamute" target="_blank" class="project-link">Learn More</a>
+              </div>
+              <div class="project-container project-card">
+                <img
+                  src="images/Australian.jpg"
+                  alt="Australian Dog"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="project-title">Australian Dog</h3>
+                <p class="project-details">
+                    Agile, strong and courageous, the Australian Cattle Dog was developed in the 1800s in Australia.
+                </p>
+                <a href="https://www.purina.com/dogs/dog-breeds/australian-cattle-dog" target="_blank" class="project-link">Learn More</a>
+              </div>
+              
+            </div>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                  <img
+                    src="images/Shepherd.jpg"
+                    alt="Shepherd Dog"
+                    loading="lazy"
+                    class="project-pic"
+                  />
+                  <h3 class="project-title">Shepherd Dog</h3>
+                  <p class="project-details">
+                    The Anatolian Shepherd Dog originated in rural Turkey about 6,000 years ago to guard livestock and serve as a companion to shepherds.
+                  </p>
+                  <a href="https://www.purina.com/dogs/dog-breeds/anatolian-shepherd-dog" target="_blank" class="project-link">Learn More</a>
+                </div>
+                <div class="project-container project-card">
+                  <img
+                    src="images/Basset.jpg"
+                    alt="Shepherd Dog"
+                    loading="lazy"
+                    class="project-pic"
+                  />
+                  <h3 class="project-title">Baset Dog</h3>
+                  <p class="project-details">
+                    Despite his short legs and stout body, the ever-popular Basset Hound boasts strength and stamina to rival that of big dogs.
+                  </p>
+                  <a href="https://www.purina.com/dogs/dog-breeds/basset-hound" target="_blank" class="project-link">Learn More</a>
+                </div>
+                <div class="project-container project-card">
+                  <img
+                    src="images/Bergamasco.jpg"
+                    alt="Bergamasco Dog"
+                    loading="lazy"
+                    class="project-pic"
+                  />
+                  <h3 class="project-title">Bergamasco Dog</h3>
+                  <p class="project-details">
+                    This ancient Alpine breed, believed to be 2,000 years old, was originally developed to guard and herd livestock.
+                  </p>
+                  <a href="https://www.purina.com/dogs/dog-breeds/bergamasco" target="_blank" class="project-link">Learn More</a>
+                </div>
+                
+              </div>
+          </section>
+    <footer>
+        <nav class="nav-footer" >
+            <ul>
+                <li><a href="https://shop.intermountainraw.com/" target="_blank" class="nav-link">Pet Shop</a></li>
+                <li><a href="https://www.purina.com/articles/puppy" target="_blank" class="nav-link">Puppy</a></li>
+                <li><a href="https://www.aspca.org/pet-care" target="_blank" class="nav-link">Pet Care</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+              </button>
+            <p class="copy">Copyright 2023</p>
+            <p class="copy">
+              Shabnam Hoss
+            </p>
+        </nav>
+      </footer>
+
+    <script src="js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
